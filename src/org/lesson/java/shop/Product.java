@@ -25,7 +25,8 @@ public class Product {
     }
     
     public void showPrice(){
-         System.out.println("Prezzo " + name + ": " + price);
+        
+         System.out.println("Prezzo " + name + ": " + price + "€");
      };
 
      public void showIvaPrice(){
@@ -34,7 +35,7 @@ public class Product {
      };
 
      public void showExtendedName(){
-        System.out.println("Nome" + name);
+        System.out.println("Nome: " + name);
         System.out.println("Nome del prodotto: " + name +"Codice: "+ productNumber );
      }
 
