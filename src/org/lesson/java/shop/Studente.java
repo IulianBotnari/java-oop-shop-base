@@ -11,7 +11,12 @@ public class Studente {
         this.age = age;
     }
 
+    public String getStudentName(){
+        return this.name;
+    }
+
     public String getStudentInfo(){
         return "Nome: " + this.name + ", Cognome: " + this.surName + ", Età: " + this.age;
     }
+
 }
