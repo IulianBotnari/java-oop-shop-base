@@ -11,6 +11,19 @@ public class App {
         Studente Mario = new Studente("Mario", "Rossi", 20);
 
         System.out.println(Mario.getStudentInfo());
+
+
+        ContoBancario MioConto = new ContoBancario(400);
+
+        
+        
+        MioConto.deposita(1000);
+
+        MioConto.preleva(540);
+        
+        System.out.println( MioConto.mostraSaldo());
+
+
         
 
     }
